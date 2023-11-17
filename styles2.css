@@ -1,0 +1,226 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 30px;
+  /* margin: auto; */
+  text-align: center;
+  
+}
+
+/* form {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+} */
+
+label,
+input,
+button {
+  display: block;
+  /* margin-bottom: 10px; */
+  font-size: 18px;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #444;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Do not edit */
+body {
+  background-color: rgb(53, 61, 61);
+}
+
+.img1 {
+  /* height: 100px; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  max-width: 1440px;
+  font-size: 0;
+  margin: auto;
+  /* align-self: center; */
+}
+
+.hero-item,
+.standard-item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news-item {
+  display: inline-block;
+  min-height: 400px;
+  width: 50%;
+}
+
+.hero-item {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/divinity-ori-sin.jpg");
+  background-color: brown;
+}
+
+.standard-item:nth-child(2) {
+  background-image: url("https://source.unsplash.com/0q90Mumo-xE");
+  background-color: aqua;
+}
+
+.standard-item:nth-child(3) {
+  background-image: url("https://source.unsplash.com/Xq6ijeemDA0");
+  background-color: blue;
+}
+
+.standard-item:nth-child(4) {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/dishonored-large.jpg");
+  background-color: black;
+}
+
+@supports (display: grid) {
+  .news-item {
+    width: auto;
+    min-height: 0;
+  }
+
+  .hero-item {
+    grid-column: 1 / span 2;
+    grid-row: 1/50;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+  }
+
+  .standard-item:nth-child(2) {
+    grid-column: 1 / span 1;
+    grid-row: 50/100;
+    -webkit-clip-path: polygon(
+      99% 6%,
+      63% 52%,
+      82% 52%,
+      50% 100%,
+      0 85%,
+      0 13%
+    );
+    clip-path: polygon(100% 6%, 85% 52%, 94% 52%, 90% 81%, 0 87%, 0 13%);
+    margin-top: -73px;
+  }
+
+  .standard-item:nth-child(3) {
+    grid-column: 2 / span 1;
+    grid-row: 50/100;
+    -webkit-clip-path: polygon(
+      100% 0,
+      100% 100%,
+      21% 100%,
+      25% 50%,
+      7% 49%,
+      28% 0
+    );
+    clip-path: polygon(100% 0, 100% 100%, 4% 84%, 8% 52%, 0% 52%, 13% 6%);
+    margin-top: -73px;
+    margin-left: -15%;
+    margin-bottom: 18px;
+  }
+
+  .standard-item:nth-child(4) {
+    grid-column: 1 / span 2;
+    grid-row: 100/150;
+    -webkit-clip-path: polygon(45% 0, 100% 15%, 100% 100%, 0 100%, 0 5%);
+    clip-path: polygon(45% 0, 100% 15%, 100% 100%, 0 100%, 0 5%);
+    margin-top: -107px;
+  }
+
+  .standard-item:nth-child(5) {
+    grid-column: 2 / span 1;
+    grid-row: 150 / 200;
+    background-color: green;
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+    margin-left: -17%;
+  }
+
+  .standard-item:nth-child(6) {
+    grid-column: 1 / span 1;
+    grid-row: 150 / 200;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+    margin-right: -17%;
+  }
+  .standard-item:nth-child(7) {
+    grid-column: 1 / span 2;
+    grid-row: 200 / 250;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+    background-color: crimson;
+  }
+
+  .standard-item:nth-child(8) {
+    grid-column: 1 / span 1;
+    grid-row: 250/300;
+    -webkit-clip-path: polygon(
+      99% 6%,
+      63% 52%,
+      82% 52%,
+      50% 100%,
+      0 85%,
+      0 13%
+    );
+    clip-path: polygon(100% 6%, 85% 52%, 94% 52%, 90% 81%, 0 87%, 0 13%);
+    margin-top: -73px;
+    background-color: greenyellow;
+  }
+
+  .standard-item:nth-child(9) {
+    grid-column: 2 / span 1;
+    grid-row: 250/300;
+    -webkit-clip-path: polygon(
+      100% 0,
+      100% 100%,
+      21% 100%,
+      25% 50%,
+      7% 49%,
+      28% 0
+    );
+    clip-path: polygon(100% 0, 100% 100%, 4% 84%, 8% 52%, 0% 52%, 13% 6%);
+    margin-top: -73px;
+    margin-left: -15%;
+    margin-bottom: 18px;
+    background-color: cornsilk;
+  }
+
+  .standard-item:nth-child(10) {
+    grid-column: 1 / span 2;
+    grid-row: 300/350;
+    -webkit-clip-path: polygon(45% 0, 100% 15%, 100% 100%, 0 100%, 0 5%);
+    clip-path: polygon(45% 0, 100% 15%, 100% 100%, 0 100%, 0 5%);
+    margin-top: -107px;
+    background-color: cornflowerblue;
+  }
+}
