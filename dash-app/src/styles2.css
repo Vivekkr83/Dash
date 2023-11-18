@@ -409,10 +409,62 @@ button:hover {
   background-size: 100% 100%;
 }
 
-.panel:nth-child(1) {
+.panel:nth-child(6) {
   background-image: url("yourfilenamehere.png");
-  /* object-fit: fill; */
-  /* background-size: inherit; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.panel:nth-child(1) {
+  background-image: url("mango.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.panel:nth-child(2) {
+  background-image: url("Monkey.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.panel:nth-child(3) {
+  background-image: url("apple.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.panel:nth-child(4) {
+  background-image: url("CatEatingIceCream.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.panel:nth-child(8) {
+  background-image: url("Sattelite.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.panel:nth-child(5) {
+  background-image: url("EarthonTree.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.panel:nth-child(9) {
+  background-image: url("mango.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.panel:nth-child(10) {
+  background-image: url("Monkey.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.panel:nth-child(7) {
+  background-image: url("IronMan.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
