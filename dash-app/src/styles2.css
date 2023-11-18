@@ -387,21 +387,32 @@ button:hover {
 
 .panel:nth-child(4n + 1) {
   background-image: radial-gradient(circle, yellow, orange);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .panel:nth-child(4n + 2) {
   background-image: radial-gradient(circle, lightblue, deepskyblue);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .panel:nth-child(4n + 3) {
   background-image: radial-gradient(circle, palegreen, yellowgreen);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .panel:nth-child(4n + 4) {
   background-image: radial-gradient(circle, lightcoral, tomato);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .panel:nth-child(1) {
   background-image: url("yourfilenamehere.png");
-  object-fit: fill;
+  /* object-fit: fill; */
+  /* background-size: inherit; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }

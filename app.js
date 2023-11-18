@@ -23,7 +23,7 @@ async function query(data) {
   const result = await response.blob();
   return result;
 }
-query({ inputs: "Arpit Sureka riding a elephant" }).then(async (response) => {
+query({ inputs: "Monkey on Space" }).then(async (response) => {
   // Use image
   console.log(response);
 //   var file = new Blob([response], {type:'image/png'});
@@ -32,7 +32,7 @@ query({ inputs: "Arpit Sureka riding a elephant" }).then(async (response) => {
   const buffer = Buffer.from(arrayBuffer);
   const fileType = await fileTypeFromBuffer(buffer);
   if (fileType.ext) {
-    const outputFileName = `yourfilenamehere.${fileType.ext}`;
+    const outputFileName = `Monkey on Space.${fileType.ext}`;
     fs.createWriteStream(outputFileName).write(buffer);
   } else {
     console.log(

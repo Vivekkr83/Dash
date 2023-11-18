@@ -7,48 +7,83 @@
     <link rel="stylesheet" href="styles2.css" />
   </head>
   <body>
-    <div class="container">
+    <div className="container">
       <h1>Generate Pictures from Text</h1>
       <form id="textForm">
-        <br />
-        <label for="Image 1">Image 1:</label><br />
-        <input type="text" id="fname" name="fname" /><br />
-        <label for="Image 2">Image 2</label><br />
-        <input type="text" id="lname" name="lname" /><br />
-        <label for="Image 3">Image 3</label><br />
-        <input type="text" id="fname" name="fname" /><br />
-        <label for="Image 4">Image 4</label><br />
-        <input type="text" id="lname" name="lname" /><br />
-        <label for="Image 5">Image 5</label><br />
-        <input type="text" id="fname" name="fname" /><br />
-        <label for="Image 6">Image 6</label><br />
-        <input type="text" id="lname" name="lname" /><br />
-        <label for="Image 7">Image 7</label><br />
-        <input type="text" id="fname" name="fname" /><br />
-        <label for="Image 8">Image 8</label><br />
-        <input type="text" id="lname" name="lname" /><br />
-        <label for="Image 9">Image 9</label><br />
-        <input type="text" id="fname" name="fname" /><br />
-        <label for="Image 10">Image 10</label><br />
-        <input type="text" id="lname" name="lname" /><br />
+        <div className="column">
+          <label for="Image1">Image 1:</label>
+          <input type="text" id="Image1" name="Image1" />
+
+          <label for="Image2">Image 2:</label>
+          <input type="text" id="Image2" name="Image2" />
+
+          <label for="Image3">Image 3:</label>
+          <input type="text" id="Image3" name="Image3" />
+
+          <label for="Image4">Image 4:</label>
+          <input type="text" id="Image4" name="Image4" />
+
+          <label for="Image5">Image 5:</label>
+          <input type="text" id="Image5" name="Image5" />
+        </div>
+
+        <div className="column">
+          <label for="Image6">Image 6:</label>
+          <input type="text" id="Image6" name="Image6" />
+
+          <label for="Image7">Image 7:</label>
+          <input type="text" id="Image7" name="Image7" />
+
+          <label for="Image8">Image 8:</label>
+          <input type="text" id="Image8" name="Image8" />
+
+          <label for="Image9">Image 9:</label>
+          <input type="text" id="Image9" name="Image9" />
+
+          <label for="Image10">Image 10:</label>
+          <input type="text" id="Image10" name="Image10" />
+        </div>
         <br />
         <button type="submit">Generate Comic</button>
       </form>
     </div>
     <br />
-    <div class="wrapper">
-      <div class="news-item hero-item">
-        <!-- <img class="img1" src="yourfilenamehere.png" /> -->
+    <!-- <div className="wrapper">
+      <div className="news-item hero-item">
+        <img className="img1" src="yourfilenamehere.png" />
       </div>
-      <div class="news-item standard-item"></div>
-      <div class="news-item standard-item"></div>
-      <div class="news-item standard-item"></div>
-      <div class="news-item standard-item"></div>
-      <div class="news-item standard-item"></div>
-      <div class="news-item standard-item"></div>
-      <div class="news-item standard-item"></div>
-      <div class="news-item standard-item"></div>
-      <div class="news-item standard-item"></div>
+      <div className="news-item standard-item"></div>
+      <div className="news-item standard-item"></div>
+      <div className="news-item standard-item"></div>
+      <div className="news-item standard-item"></div>
+      <div className="news-item standard-item"></div>
+      <div className="news-item standard-item"></div>
+      <div className="news-item standard-item"></div>
+      <div className="news-item standard-item"></div>
+      <div className="news-item standard-item"></div>
+    </div> -->
+
+    <div className="comic">
+      <div className="panel">
+        <p className="text top-left">Begin...</p>
+        <p className="text bottom-right">...next photo</p>
+      </div>
+      <div className="panel"></div>
+      <div className="panel"></div>
+      <div className="panel">
+        <p className="text bottom-right">...</p>
+        <p className="speech">A speech bubble</p>
+      </div>
+      <div className="panel"></div>
+      <div className="panel">
+        <p className="text top-left">...</p>
+      </div>
+      <div className="panel"></div>
+      <div className="panel"></div>
+      <div className="panel"></div>
+      <div className="panel">
+        <p className="text bottom-right">THE END</p>
+      </div>
     </div>
   </body>
 </html>
