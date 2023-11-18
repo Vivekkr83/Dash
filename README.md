@@ -13,4 +13,6 @@ Before clicking on submit button:![Screenshot (890)](https://github.com/Vivekkr8
 After Clicking on Submit button:
 
 ![Screenshot (888)](https://github.com/Vivekkr83/Dash/assets/75994974/b41fe7fe-e641-4204-8c2d-3fe65aea9b28)
-![Uploading Screenshot (889).png…]()
+
+Generated Comic Strip:
+![Screenshot (889)](https://github.com/Vivekkr83/Dash/assets/75994974/53d3d6cd-a705-4b1d-aa03-6060aee6eedf)
