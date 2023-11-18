@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles2.css";
 
-const FormComponent = () => {
+const FormComponent = (props) => {
   const initialFormData = {
     Image1: "Elephant",
     Image2: "Monkey",
@@ -24,11 +24,40 @@ const FormComponent = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault(); // Prevents default form submission behavior
     // Add your logic here for handling form submission
     // You can access form data using event.target elements or via form references
     console.log("Form submitted");
+    //for loop on initialFormData
+    //for each key, get value
+    //push value to textInputs
+    for (const key in initialFormData) {
+      console.log(initialFormData[key]);
+      fetch(
+        "https://xdwvg9no7pefghrn.us-east-1.aws.endpoints.huggingface.cloud",
+        {
+            headers: {
+                "Accept": "image/png",
+                "Authorization": "Bearer VknySbLLTUjbxXAXCjyfaFIPwUTCeRXbFSOjwRiCxsxFyhbnGjSFalPKrpvvDAaPVzWEevPljilLVDBiTzfIbWFdxOkYJxnOPoHhkkVGzAknaOulWggusSFewzpqsNWM",
+                "Content-Type": "application/json"
+            },
+            method: "POST",
+            body: JSON.stringify({"inputs" : initialFormData[key]}),
+        }
+      ).then((response) => { 
+        response.blob().then((blob) => {
+          const imageUrl = URL.createObjectURL(blob);
+          console.log(imageUrl);
+          const num = parseInt(key.substring(5));
+          let imageUrls = props.imageUrls;
+          imageUrls[num] = imageUrl;
+          props.setImageUrls(imageUrls);
+        })
+      }).catch((error) => {
+        console.error("Error:", error);
+      });
+    }
   };
 
   return (
