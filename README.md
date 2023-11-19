@@ -35,6 +35,15 @@ After Clicking on Submit button:
 
 ## Generated Comic Strip:
 
+### 1.
+
 ![Generated Comic](https://github.com/Vivekkr83/Dash/assets/75994974/65425e4a-054c-473f-a4cd-96c1c2f94a2a)
 
+### 2.
+
+![one piece](https://github.com/Vivekkr83/Dash/assets/75994974/35e03dae-89fa-44c8-9637-974d07cba2e0)
+
+### 3. 
+
+![Comiccc](https://github.com/Vivekkr83/Dash/assets/75994974/a3ba17d7-95bd-4850-8687-92d1c8af7884)
 
