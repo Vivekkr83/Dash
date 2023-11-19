@@ -3,10 +3,11 @@ Dashtoon assignment
 
 This website is hosted on : https://master--enchanting-bienenstitch-5b46c6.netlify.app/
 
-In this website, one can create comics based on text inputs.
-This website is fully Responsive.
-The generated Comic Stric can be downloaded and shared by clicking on the "Download Page as Image Button".
-At present there is no option to add speech bubbles and texts individually to each picture, the present speech bubbles and test areas are self-added. Due to time restrictions, I could not add those features. Later, the option to put such boxes on individual comic panels can be added. I tried to add as many features as I could in the time frame.
+This platform serves as a creative hub for crafting comics by inputting text. Its design is fully responsive, adapting seamlessly to various devices. Through this platform, users can effortlessly generate comic strips that encapsulate their narrative by simply utilizing the "Download Page as Image" button, enabling easy sharing and preservation.
+
+As of now, the system doesn't offer the capability to individually customize speech bubbles or add distinct text to each image. The speech bubbles and text areas are pre-integrated within the panels. Time constraints prevented the inclusion of these features during the initial development phase. However, I have plans to enrich the user experience by incorporating the functionality to add tailored speech bubbles and text boxes to individual comic panels in future updates.
+
+Despite these limitations, the platform has been enriched with a multitude of features within the stipulated timeframe, offering users an engaging and convenient environment to bring their comic ideas to life.
 
 Below are the screenshots of the site:
 
