@@ -3,21 +3,36 @@ Dashtoon assignment
 
 In this website, one can create comics based on text inputs.
 This website is fully Responsive.
-At present there is no option to put speech bubbles and texts individually to each picture, the present speech bubbles and test areas are self-added. Due to time restrictions, I could not add those features. Later, the option to put such boxes to individual comic panels can be added. I tried to add as many features as I could in the time frame.
+The generated Comic Stric can be downloaded and shared by clicking on the "Download Page as Image Button".
+At present there is no option to add speech bubbles and texts individually to each picture, the present speech bubbles and test areas are self-added. Due to time restrictions, I could not add those features. Later, the option to put such boxes on individual comic panels can be added. I tried to add as many features as I could in the time frame.
 
 Below are the screenshots of the site:
 
 Before clicking on the submit button:
-![Screenshot (890)](https://github.com/Vivekkr83/Dash/assets/75994974/e77eb586-86e9-45a6-aa3c-f2bb10cb9098)
 
-![Screenshot (891)](https://github.com/Vivekkr83/Dash/assets/75994974/f13ecf5e-92c4-4d64-953b-14dbc61a8554)
+![Comicly](https://github.com/Vivekkr83/Dash/assets/75994974/aa3febf2-c941-4356-b47b-ebe2e9407d25)
+
+
+![GenStrip](https://github.com/Vivekkr83/Dash/assets/75994974/bb3b83e9-2958-4bc7-b0bb-eb5bea6f2f8f)
+
+### Strips for Different Window Size:
+
+![AAAAAAA](https://github.com/Vivekkr83/Dash/assets/75994974/d034562c-1c7a-4f57-a343-08de25520ae4)
+
 
 In the above image, speech bubbles and text boxes are present.
 Later, the option to put such boxes to individual comic panels can be added.
 
 After Clicking on Submit button:
 
-![Screenshot (888)](https://github.com/Vivekkr83/Dash/assets/75994974/b41fe7fe-e641-4204-8c2d-3fe65aea9b28)
+![Comic](https://github.com/Vivekkr83/Dash/assets/75994974/a989e492-dbe9-4c9d-8415-c76b15d8114c)
 
-Generated Comic Strip:
-![Screenshot (889)](https://github.com/Vivekkr83/Dash/assets/75994974/53d3d6cd-a705-4b1d-aa03-6060aee6eedf)
+
+![Comic 2](https://github.com/Vivekkr83/Dash/assets/75994974/ef516081-6f34-4ebe-8a94-bb2a66648442)
+
+
+## Generated Comic Strip:
+
+![Generated Comic](https://github.com/Vivekkr83/Dash/assets/75994974/65425e4a-054c-473f-a4cd-96c1c2f94a2a)
+
+
