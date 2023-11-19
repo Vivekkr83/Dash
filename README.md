@@ -1,4 +1,4 @@
-# Dash-App
+# Comically
 Dashtoon assignment
 
 In this website, one can create comics based on text inputs.
