@@ -1,6 +1,8 @@
 # Comically
 Dashtoon assignment
 
+This website is hosted on : https://master--enchanting-bienenstitch-5b46c6.netlify.app/
+
 In this website, one can create comics based on text inputs.
 This website is fully Responsive.
 The generated Comic Stric can be downloaded and shared by clicking on the "Download Page as Image Button".
